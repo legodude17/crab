@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CrabWorld
+comment1.params=
+comment1.target=CrabWorld()
+comment2.params=cls\ n
+comment2.target=void\ addRandom(java.lang.Class,\ int)
+comment3.params=
+comment3.target=int\ randomX()
+comment4.params=
+comment4.target=int\ randomY()
+numComments=5

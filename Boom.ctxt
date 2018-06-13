@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Boom
+comment1.params=rotate
+comment1.target=Boom(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkForEdge()
+numComments=4

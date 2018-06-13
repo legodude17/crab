@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Acctor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Acctor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=cls
+comment2.target=boolean\ removeTouchingClass(java.lang.Class)
+comment3.params=cls
+comment3.target=boolean\ seek(java.lang.Class)
+comment4.params=frames\ actsPerAn
+comment4.target=void\ initFrames(java.lang.String[],\ int)
+comment5.params=k
+comment5.target=boolean\ key(java.lang.String)
+numComments=6
