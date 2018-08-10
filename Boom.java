@@ -6,7 +6,13 @@ public class Boom extends Acctor {
     }
     private int speed = 10;
     public void act() {
-      removeTouchingClass(Lobster.class);
+      if (removeTouchingClass(Lobster.class)) {
+        CrabWorld world = (CrabWorld) getWorld();
+        world.numLobsters--;
+        if (world.numLobsters == 0) {
+          world.spawnLobsters();
+        }
+      };
       move(speed);
       checkForEdge();
     }

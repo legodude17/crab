@@ -52,4 +52,8 @@ public class Acctor extends Actor {
     public boolean key(String k) {
       return Greenfoot.isKeyDown(k);
     }
+    public CrabWorld getCrabWorld() {
+      CrabWorld cw = (CrabWorld) getWorld();
+      return cw;
+    }
 }
